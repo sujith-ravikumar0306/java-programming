@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-public class fact_recursion {
+public class fact_recursion { 
     
      public static int findFact(int n) 
     {

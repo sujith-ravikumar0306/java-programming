@@ -9,7 +9,7 @@
 
  import java.util.Scanner;
 
-public class keypadProblem {
+public class keypadProblem { 
 
     //The function to return the alphabets in a number
     public static String getAlpha(int n)

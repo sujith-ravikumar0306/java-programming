@@ -41,7 +41,7 @@ public class familyTree {
     }
 
     public static void main(String[] args) {
-
+        /*
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the first generation member's gender(m/f) :");
         char root_gender = sc.next().charAt(0);
@@ -53,5 +53,8 @@ public class familyTree {
 
         System.out.print("The gender of the child is :");
         System.out.println(findGender(root_gender, gen, child));
+
+         */
+        System.out.println(findGender('m', 3, 3));
     }
 }

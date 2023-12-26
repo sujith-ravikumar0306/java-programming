@@ -26,3 +26,13 @@ OOP is the use of classes and its instances(entities) which are more over associ
         ->We can create any number of constructors for a class with any type/numbers of arguments.
         ->The code for creating an object is minimized.
         ->Not possible to create an object without specifying its values.
+
+*"final": mark a variable as unchangable even within the class.
+
+*"static": used to create variables which are common to a class and are shared by its objects.
+
+* static function: a method that can be used by object's constructor and not by object's instances.
+        ->helps in developing read-only functionality using static methods
+        ->non-static variables are not accessible as they rely on instace of class and not the constructor.
+
+        

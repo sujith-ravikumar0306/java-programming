@@ -1,6 +1,5 @@
 package ClassesAndObjects;
 
-import ClassesAndObjects.fractionClass;
 
 public class fractionObject {
     public static void main(String[] args) {

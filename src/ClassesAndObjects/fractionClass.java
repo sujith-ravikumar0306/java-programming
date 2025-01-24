@@ -8,6 +8,10 @@ public class fractionClass {
     fractionClass(int numerator, int denominator)
     {
         this.numerator = numerator;
+        if(denominator==0)
+        {
+            return;
+        }
         this.denominator = denominator;
     }
 
@@ -21,7 +25,7 @@ public class fractionClass {
         int gcd = 1;
         int smaller = Math.min(numerator, denominator);
 
-        for(int i=0;i<=smaller;i++)
+        for(int i=2;i<=smaller;i++)
         {
             if(numerator%i==0 && denominator%i==0)
             {
